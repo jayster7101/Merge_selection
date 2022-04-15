@@ -103,7 +103,7 @@ std::cout << "\n----------------------------------------------------------------
       if(epiRank != 0) { std::cout <<  std::left << std::setw(10) << epiRank << "| ";} else std::cout << std::left << std::setw(10) << "NULL" << "| "; 
       if(epi2020 != 0) { std::cout << std::left << std::setw(9)<< epi2020 << "| ";} else std::cout << std::left << std::setw(9) << "NULL" << "| ";
       if(TYchange != 0) {  std::cout << std::left << std::setw(11) << TYchange << "| ";} else std::cout << std::left << std::setw(11) << "NULL" << "| ";
-      if(us21R != 0) { std::cout << std::left << std::setw(10)<< us21R << "| ";} else std::cout << std::left << std::setw(10)<< "NULL" << "| ";
+      if(us21R != 0) { std::cout << std::left << std::setw(10)<< us21R << "| ";} else std::cout << std::left << std::setw(10) << "NULL" << "| ";
       if(int20R != 0) { std::cout << std::left << std::setw(12)<< int20R << "| ";} else std::cout << std::left << std::setw(12) << "NULL" << "| ";
       if(pop != 0) {  std::cout << std::right << std::setw(12)<< pop << "| ";} else std::cout << "NULL *";
     //std::cout << "\n----------------------------------------------------------------------\n";
